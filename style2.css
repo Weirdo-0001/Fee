@@ -1,0 +1,169 @@
+.Header1 {
+    position: relative;
+    display: flex;
+    padding: 1.5rem;
+    background: url(https://images.unsplash.com/photo-1498015583783-4abcab4a760a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHNreXxlbnwwfHwwfHx8MA%3D%3D);
+    color: #000000;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: x-large;
+}
+
+.Header1 .logo {
+    height: 70px;
+
+}
+
+.Header1 .header-content {
+    position: absolute;
+    left: 400px;
+    text-align: left;
+}
+
+.Header1 .header-content h1 {
+    margin-left: 138px;
+}
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back {
+    background-image: url('https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back2 {
+    background-image: url('https://images.pexels.com/photos/91217/pexels-photo-91217.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back4 {
+    background-image: url('https://plus.unsplash.com/premium_photo-1682310073315-d3bb4efd1eeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.back3 {
+    background-image: url('https://media.istockphoto.com/id/2079539767/photo/abstract-background.jpg?s=612x612&w=0&k=20&c=2YcAwkVprTqOTKNYmPDMKf4RdH2bfA5bmxaY1gymlZ0=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.2rem;
+    color: #06f7ff;
+    transition: all 0.3s ease;
+}
+
+
+.navbar-nav .nav-link:hover {
+    background-color: #535755;
+    color: #06f7ff;
+    border-radius: 0.25rem;
+
+}
+
+.Footerr {
+    background-color: black;
+    padding: 10px 10px;
+}
+
+.Footerr .social-icons {
+    margin-top: 10px;
+}
+
+.Footerr .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.Footerr .social-icons a:hover {
+    color: cyan;
+    /* Or any other color you prefer */
+}
+
+.featured-box {
+    background-color: rgba(255, 255, 255, 0.266);
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.featured-box .container {
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+}
+
+.why-box {
+    background-color: rgba(255, 255, 255, 0.571);
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: auto;
+    max-width: 70%;
+    text-align: left;
+}
+
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: gray;
+}
+
+
+
+.blog_img {
+    height: 290px;
+    width: 443px;
+}
