@@ -2,8 +2,7 @@
     position: relative;
     display: flex;
     padding: 1.5rem;
-    background: url(https://images.unsplash.com/photo-1498015583783-4abcab4a760a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHNreXxlbnwwfHwwfHx8MA%3D%3D);
-    color: #000000;
+    background: url(https://images.pexels.com/photos/1756325/pexels-photo-1756325.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -11,18 +10,24 @@
 }
 
 .Header1 .logo {
-    height: 70px;
-
+    position: relative;
+    height: 90px;
 }
 
-.Header1 .header-content {
-    position: absolute;
-    left: 400px;
-    text-align: left;
+.Header1 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.Header1 .header-content h1 {
-    margin-left: 138px;
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #000000;
 }
 
 
@@ -40,29 +45,30 @@
 }
 
 .back2 {
-    background-image: url('https://images.pexels.com/photos/91217/pexels-photo-91217.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-image: url('https://media.istockphoto.com/id/1369516776/video/time-lapse-of-a-day-to-night-sequence-with-clouds-moving-fast-and-sun-rays-glowing-onto-the.jpg?s=640x640&k=20&c=mzhD3oi_gpdmSZxNkJhDv0HiiJ2TuWpBcneAvfli-Ic=');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-.back4 {
-    background-image: url('https://plus.unsplash.com/premium_photo-1682310073315-d3bb4efd1eeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHx8MA%3D%3D');
-    background-size: cover;
-    background-position: right;
     background-repeat: no-repeat;
 }
 
 .back3 {
-    background-image: url('https://media.istockphoto.com/id/2079539767/photo/abstract-background.jpg?s=612x612&w=0&k=20&c=2YcAwkVprTqOTKNYmPDMKf4RdH2bfA5bmxaY1gymlZ0=');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #b3f6f6, #bcbbcd);
+}
+
+.back4 {
+    background-image: linear-gradient(100deg, #ffffff, #f7f2c2, #ffffff);
+}
+
+.navbar {
+    padding: 2px;
+    background-color: #41817fad;
+    height: 2.3rem;
+
 }
 
 .navbar-nav .nav-link {
     padding: 0.2rem;
-    color: #06f7ff;
+    color: #fff;
     transition: all 0.3s ease;
 }
 
@@ -92,6 +98,7 @@
 
 .Footerr .social-icons a:hover {
     color: cyan;
+
 }
 
 .featured-box {
@@ -102,7 +109,6 @@
     max-width: 90%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
 
 
 .featured-box .container {
@@ -119,21 +125,13 @@
     transition: 0.3s ease;
 }
 
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-
 .about-box {
     background-color: rgba(255, 255, 255, 0.596);
     border-radius: 15px;
     padding: 20px;
     margin: auto;
     max-width: 90%;
-    box-shadow: 0 0 40px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .why-box {
@@ -143,8 +141,8 @@ body {
     margin: auto;
     max-width: 70%;
     text-align: left;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-
 
 body::-webkit-scrollbar {
     width: 8px;
@@ -157,12 +155,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: gray;
+    background-color: rgb(87, 87, 87);
 }
-
-
 
 .blog_img {
     height: 290px;
     width: 443px;
+}
+
+.form {
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.submitBtn {
+    background-color: green;
+    padding: 2px;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
 }
